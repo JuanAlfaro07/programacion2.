@@ -1,0 +1,16 @@
+import random
+
+
+
+def sorteo_estudiantes():
+    
+    estudiantes = ["Estudiante1", "Estudiante2", "Estudiante3", "Estudiante4", "Estudiante5"]
+ 
+    
+    ganador = random.choice(estudiantes)
+    
+    
+print("¡El estudiante ganador del sorteo es: ", ganador)
+
+
+sorteo_estudiantes()
